@@ -1,0 +1,45 @@
+.hydrated{
+    overflow: auto;
+}
+.accordian_sec{
+    max-width: 1145px;
+    padding: 34px 20px;
+    margin: auto;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    // .Mui-expanded {
+    //     background-color: #1b365d;
+    // }
+    .css-1elwnq4-MuiPaper-root-MuiAccordion-root:before{
+        display: none;
+    }
+    .MuiAccordion-rounded{
+        margin: 0 0 18px;
+        box-shadow: none;
+        border: 1px solid #eae9e9;
+        border-radius: 6px !important;
+    }
+    .accordian_head{
+        display: flex;
+        min-height: inherit;
+        background-color: #eae9e9;
+        border-radius: 6px !important;
+        justify-content: space-between;
+        padding: 10px 15px;
+        min-height: inherit !important;
+        .MuiAccordionSummary-content{
+            margin: 0;
+           
+            // background-color: #1b365d;
+            // 
+            p{
+                min-height: inherit;
+                color: #1b365d;
+                font-weight: 500;
+            }
+            .arrow_icon{
+                color: #1b365d;
+            }
+        }
+    }
+}

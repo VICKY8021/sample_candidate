@@ -1,0 +1,44 @@
+
+.header_main{
+    .css-hip9hq-MuiPaper-root-MuiAppBar-root{
+        background-color: #1b365d;
+    }
+    background-color: #1b365d;
+    .container{
+        max-width: 1150px;
+        margin: auto;
+    }
+    .logo{
+        font-size: 28px;
+        color: #ffffff;
+    }
+    .header_rt{
+        display: flex;
+        align-self: center;
+        .align_right{
+            align-self: center;
+            padding: 0 0 0 14px;
+            font-size: 14px;
+            font-weight: normal;
+            color: #ffffff;
+        }
+        .logout_btn{
+            width: 120px;
+            height: 37px;
+            line-height: 37px;
+            background-color: #ffffff;
+            color: #1b365d;
+            border-radius: 30px;
+            text-transform: capitalize;
+            font-size: 14px;
+            margin: 0 0 0 20px;
+            font-weight: 500;
+            border: 2px solid #ffffff;
+            &:hover{
+               color: #ffffff;
+               background-color: transparent;
+            }
+        }
+    }
+}
+

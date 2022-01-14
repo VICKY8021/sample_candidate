@@ -1,0 +1,63 @@
+// p{
+//     font-size: 15px;
+//     text-align: center;
+//     margin: 5px 0 17px;
+//     &.text-danger{
+//         color: #dc3545;
+//     }
+//     &.text-warning{
+//         color: #ffc107;
+//     }
+// }
+.main_form{
+    width: 300px !important;
+    margin: 0 auto;
+    display: block !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    .login_box{
+        max-width: 330px;
+        .login_box_in{
+            margin: 20px !important;
+            padding: 20px 0;
+            text-align: center;
+        }
+        p{margin: 0;}
+        .form-control{
+            margin: 10px 0;
+            .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+                line-height: 0.8375em;
+                font-size: 14px;
+                font-family: 'Open Sans', sans-serif !important;
+            }
+            .MuiOutlinedInput-input{
+                padding: 9px;
+                font-family: 'Open Sans', sans-serif !important;
+            }
+        }
+        #showHidePwd{
+            align-self: end;
+            padding: 0 0 12px;
+            margin: 0 0px 0 -20px;
+            position: relative;
+        }
+        .signin_btn{
+            width: 90px;
+            display: block;
+            margin: 15px auto;
+            font-family: 'Open Sans', sans-serif !important;
+        }
+        .check_label{
+            text-align: center;
+            display: block;
+            margin: 0;
+            span{
+                font-size: 15px;
+                font-family: 'Open Sans', sans-serif !important;
+            }
+        }
+    }
+}

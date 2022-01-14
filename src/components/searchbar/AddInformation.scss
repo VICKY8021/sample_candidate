@@ -1,0 +1,29 @@
+.pan_information{
+    padding: 68px 0 30px;
+    text-align: center;
+    h5{
+       font-size: 20px;
+       color: #b2b2b2;
+       text-transform: capitalize;
+       font-weight: normal;
+       margin: 0 0 30px;
+    }
+    .add-btn{
+        width: 150px;
+        margin: auto;
+        height: 48px;
+        background-color:#1b365d;
+        color: #ffffff;
+        text-align: center;
+        display: block;
+        border-radius: 28px;
+        font-size: 14px;
+        text-transform: capitalize;
+        font-weight: normal;
+        border: 2px solid #1b365d;
+        &:hover{
+            color: #1b365d;
+            background: transparent;
+        }
+    }
+}
